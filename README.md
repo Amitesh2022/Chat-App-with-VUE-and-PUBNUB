@@ -1,7 +1,7 @@
 
 # Project Name
 
-A brief description of what your project does and its purpose.
+A real-time chat application built with Vue.js for the frontend, Node.js with Express for the backend, and MongoDB for data persistence. The application uses PubNub for real-time messaging and JWT for secure authentication.
 
 ## Table of Contents
 - [Project Name](#project-name)
@@ -15,7 +15,11 @@ A brief description of what your project does and its purpose.
 - [License](#license)
 
 ## Features
-- List of main features of the project
+- User Authentication: Register and login using JWT-based authentication.
+- Real-time Messaging: Enabled through PubNub.
+- Typing Indicator: Real-time feedback when users are typing.
+- Persistent Messaging: Messages are stored in MongoDB and fetched upon reconnect.
+- Channel-based Communication: Each user can join unique channels.
 - Include features like authentication, real-time chat, etc.
 
 ## Tech Stack
@@ -23,9 +27,6 @@ A brief description of what your project does and its purpose.
 - **Backend:** Node.js, Express, MongoDB
 - **Authentication:** JWT
 - **Real-time Messaging:** PubNub API
-
-## Getting Started
-These instructions will help you set up the project on your local machine.
 
 ### Prerequisites
 - Node.js (version >= 14)
@@ -35,7 +36,7 @@ These instructions will help you set up the project on your local machine.
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Amitesh2022/Chat-App-with-VUE-and-PUBNUB.git)
    ```
 2. **Navigate to the project folder:**
    ```bash
